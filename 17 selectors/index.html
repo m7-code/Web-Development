@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Selectors</title>
+    <style>
+        div{
+            background-color: aqua;
+        }
+        .red{
+            background-color: red;
+        }
+        #red1 >p{
+            background-color: blue;
+        }
+        div p{
+            background-color: orange;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+           background-color: red;
+        }
+        a:hover{
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        i am div
+    </div>
+    <div class="red">
+        i am second div
+    </div>
+    <div id="red1">
+        <p>i am para</p>
+    </div> 
+    <div>
+        <div>
+            <p>i am second para</p>
+        </div>
+    </div>
+    <a href="https://www.google.com">google.com</a>
+    <a href="https://www.vegamovies3.com">vegamovies3.com</a>
+</body>
+</html>

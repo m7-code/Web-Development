@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: aquamarine;
+            width: 40vw;
+            height: 40vh;
+        }
+        .box {
+            background-color: red;
+            width: 4vw;
+            height: 4vh;
+            transition-property:background-color transform;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0.86, 0.58, 0.58, 1);
+            transition-delay: 1s;
+        }
+        .tran{
+            transform: translateX(10vw) translateY(10vh) scale(2.5);
+            background-color: blue;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="box tran"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: sticky;
+            top: 0;
+        }
+        .nav{
+            border: 2px solid rgb(70, 52, 52);
+            background-color:rgb(70, 52, 52);
+            height: 50px;
+
+        }
+        .main{
+            border: 2px solid  rgb(179, 228, 179);
+            margin: 9px;
+            height: 500px;
+            background-color: rgb(179, 228, 179);
+            /* overflow-x: scroll; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            
+            /* padding: 40px; */
+            height: 75vh;
+            width: 43vw;
+            margin: 20px;
+            
+            
+        }
+        .box1{
+            border: 2px solid rgb(206, 206, 241);
+            background-color: rgb(206, 206, 241);
+        }
+        .box2{
+            border: 2px solid rgb(206, 206, 241);
+            background-color: rgb(206, 206, 241);
+        }
+        .box3{
+            border: 2px solid black;
+            border-radius: 50px;
+            margin: 10px;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .mainpos{
+            position: fixed;
+            z-index: 1;
+        }
+        .position{
+            border: 2px solid black;
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            background-color: red;
+            
+
+        }
+        .fot{
+            border: 2px solid rgb(70, 52, 52);
+            background-color:rgb(70, 52, 52) ;
+            position: relative;
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav"></div>
+    </header>
+    
+    <div class="main">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+    </div>
+    <div class="mainpos">
+    <div class="position"></div>
+    </div>
+    <div class="box3">Welcome to web development</div>
+    <footer class="fot"></footer>
+    
+</body>
+</html>

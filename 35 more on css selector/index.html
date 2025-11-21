@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .box::first-line{
+        color:yellow ;
+    } */
+     .boxes *{
+        background-color: aqua;
+        border: 2px solid black;
+        text-align: center;
+        /* margin: 5px;
+        padding: 10px;
+        width: 50px;
+        margin-left: 200px;
+        margin-top: 30px;
+         */
+        /* height: 50px; */
+        width: 50px;
+        padding: 5px;
+
+        margin: auto;
+        margin-top: 5px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;*/
+     } 
+     [data-color="prime"]{
+        margin-top: 50px;
+     }
+     .boxes::after{
+        content: ">>>>>>>";
+     }
+     .boxes::before{
+        content: ">>>>>>>";
+     }
+     ::selection{
+        color: rgb(0, 47, 255);
+        background-color: aliceblue;
+     }
+     .box::first-letter{
+        font-size: 30px;
+     }
+</style>
+<body>
+    <div class="boxes">
+        <!-- <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, explicabo. Quia accusantium ratione consequatur vel minus facere deserunt nulla dolores mollitia. Soluta molestias repellendus esse dicta, dolorum perspiciatis illum optio?</div> -->
+        <div data-color="prime" class="box">Box1</div>
+        <div class="box">Box2</div>
+    </div>
+    <input type="text" placeholder="text here">
+</body>
+</html>

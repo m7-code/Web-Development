@@ -1,0 +1,3 @@
+open command prompt and write "ipconfig " . 
+
+and copy the "ip v4" address 

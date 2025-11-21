@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .name {
+            display: flex;
+            gap: 25px;
+            color: rgb(73, 66, 66);
+        }
+        .name li {
+            list-style: none;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .logo img {
+            width: 164px;
+            padding: 0px 80px;
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 15px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            margin: 0 10px;
+        }
+        .grid {
+            background-color: rgb(211, 197, 197);
+            padding: 15px;
+        }
+        .language {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .button {
+            text-align: center;
+        }
+        button {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .color1 {
+            background-color: blue;
+        }
+        .color2 {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
+            <ul class="name">
+                <li>Product</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <div class="head"><h2>Download Ultraedit :</h2></div>
+    </div>
+    <main class="grid-container">
+        <section class="grid">
+            <h3 class="language">English</h3>
+            <div class="button">
+                <button class="color1">Download 32-bit</button>
+                <button class="color2">Download 64-bit</button>
+            </div>
+        </section>
+        <section class="grid">
+            <h3 class="language">Spanish</h3>
+            <div class="button">
+                <button class="color1">Download 32-bit</button>
+                <button class="color2">Download 64-bit</button>
+            </div>
+        </section>
+        <section class="grid">
+            <h3 class="language">French</h3>
+            <div class="button">
+                <button class="color1">Download 32-bit</button>
+                <button class="color2">Download 64-bit</button>
+            </div>
+        </section>
+        <section class="grid">
+            <h3 class="language">German</h3>
+            <div class="button">
+                <button class="color1">Download 32-bit</button>
+                <button class="color2">Download 64-bit</button>
+            </div>
+        </section>
+        <section class="grid">
+            <h3 class="language">Chinese</h3>
+            <div class="button">
+                <button class="color1">Download 32-bit</button>
+                <button class="color2">Download 64-bit</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

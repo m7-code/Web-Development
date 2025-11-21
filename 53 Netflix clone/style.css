@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(Assets/images/img.jpg);
+    background-position: center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    max-width: 150vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+}
+.img{
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 23px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.btn1{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: red;
+}
+.btn2{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    border-color: red;
+}
+.input{
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    background-color:  rgba(23, 23, 23, 0.2);
+}
