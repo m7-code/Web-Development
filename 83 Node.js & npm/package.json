@@ -1,0 +1,25 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "doing some pratice",
+  "homepage": "https://github.com/m7-code/Web-Development#readme",
+  "bugs": {
+    "url": "https://github.com/m7-code/Web-Development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m7-code/Web-Development.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.19",
+    "luxon": "^3.7.2"
+  }
+}
