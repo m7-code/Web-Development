@@ -1,0 +1,22 @@
+{
+  "name": "web-development",
+  "version": "1.0.0",
+  "description": "Here my web practice code",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m7-code/Web-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/m7-code/Web-Development/issues"
+  },
+  "homepage": "https://github.com/m7-code/Web-Development#readme"
+}
