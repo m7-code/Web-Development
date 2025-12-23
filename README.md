@@ -59,17 +59,9 @@ This repository evolves as I learn new things.
 
 ---
 
-## 🌱 Progress Mindset
-
-This repository reflects my **learning progress over time**. Older files show where I started, and newer ones show improvement.
-
----
-
 ## 📬 Feedback
 
 Suggestions and improvements are always welcome. Learning is better when shared!
 
----
 
-✨ *Built with curiosity, practice, and consistency.*
 
